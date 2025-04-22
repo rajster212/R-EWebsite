@@ -4,6 +4,8 @@ import Hero from '../components/Hero';
 import { Link } from '../components/Navigation';
 import Button from '../components/Button';
 import { ArrowRight, Check } from 'lucide-react';
+import teamImage from '../assets/team.jpg'; // Adjust path as needed
+
 
 const About: React.FC = () => {
   return (
@@ -22,17 +24,18 @@ const About: React.FC = () => {
             <div>
               <h2 className="text-3xl md:text-4xl font-bold text-navy-900 mb-6">Our Mission</h2>
               <p className="text-lg text-navy-700 mb-6">
-                At Melisa, our mission is to empower businesses with innovative digital solutions that drive growth, 
-                enhance efficiency, and create exceptional user experiences.
+              The Drug Safety Lab (M.J. Rieder laboratory) is a research lab focused on 
+              understanding the molecular pathophysiology of adverse drug reactions (ADRs) for the purpose of developing safe and reliable diagnostic and predictive testing.
               </p>
               <p className="text-lg text-navy-700 mb-6">
-                We believe in the power of technology to transform businesses and improve lives. 
-                Our approach combines technical expertise, creative thinking, and strategic insight to deliver 
-                solutions that make a real difference.
+              The lab has a long experience with in vitro testing for drug hypersensitivity reactions (DHRs, drug allergy) that extends for decades.The hair analysis division 
+              of the lab is focused on using hair samples as matrix to measure patient exposure to drugs and 
+              endogenous hormones such as cortisol. The latter is used as a marker for stress.We test blood samples from patients and healthy volunteers to aid diagnosis 
+              and prediction of DHRs.
               </p>
               <p className="text-lg text-navy-700 mb-8">
-                Whether you're a startup looking to make your mark or an established business aiming to innovate, 
-                we're here to help you achieve your goals and realize your vision.
+              The lab also trains number of postdoctoral fellows and graduate students on the use of cutting edge technologies aiming at expanding our knowledge on how small 
+              fraction of patients are prone to develop devastating and sometimes lethal ADRs to drugs that are otherwise safe for the majority of the population.
               </p>
               <Link to="/contact">
                 <Button variant="primary" size="lg">
@@ -42,7 +45,7 @@ const About: React.FC = () => {
             </div>
             <div className="relative">
               <img
-                src="https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                 src={teamImage}
                 alt="Team working together"
                 className="rounded-lg shadow-xl w-full"
               />
