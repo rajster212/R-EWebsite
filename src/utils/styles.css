@@ -1,0 +1,138 @@
+/* Additional custom styles */
+
+/* Animation classes */
+.animate-fade-in {
+  opacity: 0;
+  animation: fadeIn 0.8s ease-in-out forwards;
+}
+
+.animation-delay-200 {
+  animation-delay: 0.2s;
+}
+
+.animation-delay-400 {
+  animation-delay: 0.4s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Custom utility classes */
+.text-navy-500 {
+  color: #3b5998;
+}
+
+.text-navy-600 {
+  color: #344e86;
+}
+
+.text-navy-700 {
+  color: #2d4373;
+}
+
+.text-navy-800 {
+  color: #263961;
+}
+
+.text-navy-900 {
+  color: #1e2e4a;
+}
+
+.bg-navy-500 {
+  background-color: #3b5998;
+}
+
+.bg-navy-600 {
+  background-color: #344e86;
+}
+
+.bg-navy-700 {
+  background-color: #2d4373;
+}
+
+.bg-navy-800 {
+  background-color: #263961;
+}
+
+.bg-navy-900 {
+  background-color: #1e2e4a;
+}
+
+.border-navy-500 {
+  border-color: #3b5998;
+}
+
+.border-navy-700 {
+  border-color: #2d4373;
+}
+
+/* Hover effects */
+.hover\:text-blue-200:hover {
+  color: #bee3f8;
+}
+
+.hover\:bg-navy-800:hover {
+  background-color: #263961;
+}
+
+/* Responsive typography */
+@media (max-width: 640px) {
+  .text-4xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+  
+  .text-3xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+  
+  .text-2xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+}
+
+/* Line clamp utilities */
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Aspect ratio container for responsive elements */
+.aspect-w-16 {
+  position: relative;
+  padding-bottom: calc(var(--tw-aspect-h) / var(--tw-aspect-w) * 100%);
+  --tw-aspect-w: 16;
+}
+
+.aspect-h-9 {
+  --tw-aspect-h: 9;
+}
+
+.aspect-w-16 > * {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
