@@ -3,6 +3,8 @@ import Layout from '../components/Layout';
 import Hero from '../components/Hero';
 import ContactForm from '../components/ContactForm';
 import { MapPin, Phone, Mail, Clock } from 'lucide-react';
+import heroImage from '../assets/HeroImage.jpg';
+
 
 const Contact: React.FC = () => {
   return (
@@ -11,7 +13,7 @@ const Contact: React.FC = () => {
       <Hero
         title="Get in Touch"
         subtitle="We'd love to hear from you. Reach out to us with any questions, inquiries, or project ideas."
-        backgroundImage="https://images.pexels.com/photos/3184302/pexels-photo-3184302.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        backgroundImage={heroImage}
       />
 
       {/* Contact Section */}

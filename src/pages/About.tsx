@@ -5,6 +5,7 @@ import { Link } from '../components/Navigation';
 import Button from '../components/Button';
 import { ArrowRight, Check } from 'lucide-react';
 import teamImage from '../assets/Baset.jpg'; // Adjust path as needed
+import heroImage from '../assets/HeroImage.jpg';
 
 
 const About: React.FC = () => {
@@ -14,7 +15,7 @@ const About: React.FC = () => {
       <Hero
         title="About R&E Diagnostics"
         subtitle="A drug safety lab specializing in drug hypersensitivity reaction"
-        backgroundImage="https://images.pexels.com/photos/3182826/pexels-photo-3182826.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        backgroundImage={heroImage}
       />
 
       {/* Mission Section */}
