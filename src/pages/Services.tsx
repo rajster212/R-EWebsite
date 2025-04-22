@@ -4,6 +4,7 @@ import Hero from '../components/Hero';
 import Button from '../components/Button';
 import { Link } from '../components/Navigation';
 import { ArrowRight, Code, BarChart, Lightbulb, Users, Globe, Zap, LineChart, Smartphone } from 'lucide-react';
+import heroImage from '../assets/HeroImage.jpg';
 
 const Services: React.FC = () => {
   return (
@@ -11,17 +12,17 @@ const Services: React.FC = () => {
       {/* Hero Section */}
       <Hero
         title="Our Services"
-        subtitle="Discover the comprehensive range of digital services we offer to help your business grow and succeed."
-        backgroundImage="https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        subtitle="Test/types"
+        backgroundImage={heroImage}
       />
 
       {/* Services Overview */}
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-navy-900 mb-4">What We Offer</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-navy-900 mb-4">In vitro Diagnostic tests</h2>
             <p className="text-lg text-navy-600 max-w-3xl mx-auto">
-              We provide a wide range of digital services to help businesses thrive in today's competitive landscape. From web development to digital marketing, we have the expertise to meet your needs.
+            In vitro diagnostic tests have the advantage over in vivo tests (e.g., skin patch test, prick test, intradermal) and systemic rechallenge of being safe and carrying no potential harm to patients. In the Drug Safety Lab, we offer a pattery of in vitro tests with proved vlaue in diagnosis of Drug hypersensitivity. These test are particulrly useful for diagnosis of hypersensitivity reactions to drug s such as aromatic anticonvulsants, sulfonamides, NSAIDs, allopurinol, and beta-lactam antibiotics.
             </p>
           </div>
 
@@ -32,366 +33,16 @@ const Services: React.FC = () => {
                 <div className="bg-blue-100 rounded-full w-16 h-16 flex items-center justify-center mb-6">
                   <Code className="h-8 w-8 text-blue-600" />
                 </div>
-                <h3 className="text-xl font-semibold text-navy-900 mb-3">Web Development</h3>
+                <h3 className="text-xl font-semibold text-navy-900 mb-3">The Lymphocyte Toxicity Assay</h3>
                 <p className="text-navy-700 mb-6">
-                  We build responsive, modern websites and web applications that deliver exceptional user experiences and achieve your business goals.
+                The LTA is a safe in vitro test used to identify patients who are at high risk of developing DHS. The test has been used for decades to test patient susceptibility to DHS.
                 </p>
-                <ul className="text-navy-700 mb-6 space-y-2">
-                  <li className="flex items-center">
-                    <span className="text-blue-600 mr-2">•</span>
-                    Custom Website Development
-                  </li>
-                  <li className="flex items-center">
-                    <span className="text-blue-600 mr-2">•</span>
-                    E-commerce Solutions
-                  </li>
-                  <li className="flex items-center">
-                    <span className="text-blue-600 mr-2">•</span>
-                    Web Application Development
-                  </li>
-                  <li className="flex items-center">
-                    <span className="text-blue-600 mr-2">•</span>
-                    CMS Implementation
-                  </li>
-                </ul>
                 <Link to="/web-development">
                   <Button variant="text" className="flex items-center">
                     Learn More <ArrowRight className="ml-2 h-5 w-5" />
                   </Button>
                 </Link>
               </div>
-            </div>
-
-            {/* Service Card 2 */}
-            <div className="bg-white rounded-lg shadow-md overflow-hidden transition-transform duration-300 hover:transform hover:scale-105">
-              <div className="p-6">
-                <div className="bg-blue-100 rounded-full w-16 h-16 flex items-center justify-center mb-6">
-                  <Lightbulb className="h-8 w-8 text-blue-600" />
-                </div>
-                <h3 className="text-xl font-semibold text-navy-900 mb-3">UI/UX Design</h3>
-                <p className="text-navy-700 mb-6">
-                  We create intuitive, visually appealing interfaces that enhance user engagement and drive conversions for your digital products.
-                </p>
-                <ul className="text-navy-700 mb-6 space-y-2">
-                  <li className="flex items-center">
-                    <span className="text-blue-600 mr-2">•</span>
-                    User Research & Personas
-                  </li>
-                  <li className="flex items-center">
-                    <span className="text-blue-600 mr-2">•</span>
-                    Wireframing & Prototyping
-                  </li>
-                  <li className="flex items-center">
-                    <span className="text-blue-600 mr-2">•</span>
-                    Visual Design & Branding
-                  </li>
-                  <li className="flex items-center">
-                    <span className="text-blue-600 mr-2">•</span>
-                    Usability Testing
-                  </li>
-                </ul>
-                <Link to="/ui-ux-design">
-                  <Button variant="text" className="flex items-center">
-                    Learn More <ArrowRight className="ml-2 h-5 w-5" />
-                  </Button>
-                </Link>
-              </div>
-            </div>
-
-            {/* Service Card 3 */}
-            <div className="bg-white rounded-lg shadow-md overflow-hidden transition-transform duration-300 hover:transform hover:scale-105">
-              <div className="p-6">
-                <div className="bg-blue-100 rounded-full w-16 h-16 flex items-center justify-center mb-6">
-                  <Smartphone className="h-8 w-8 text-blue-600" />
-                </div>
-                <h3 className="text-xl font-semibold text-navy-900 mb-3">Mobile Development</h3>
-                <p className="text-navy-700 mb-6">
-                  We develop high-performance, feature-rich mobile applications for iOS and Android platforms that engage users and drive business growth.
-                </p>
-                <ul className="text-navy-700 mb-6 space-y-2">
-                  <li className="flex items-center">
-                    <span className="text-blue-600 mr-2">•</span>
-                    Native iOS & Android Apps
-                  </li>
-                  <li className="flex items-center">
-                    <span className="text-blue-600 mr-2">•</span>
-                    Cross-Platform Solutions
-                  </li>
-                  <li className="flex items-center">
-                    <span className="text-blue-600 mr-2">•</span>
-                    Progressive Web Apps
-                  </li>
-                  <li className="flex items-center">
-                    <span className="text-blue-600 mr-2">•</span>
-                    App Maintenance & Updates
-                  </li>
-                </ul>
-                <Link to="/mobile-development">
-                  <Button variant="text" className="flex items-center">
-                    Learn More <ArrowRight className="ml-2 h-5 w-5" />
-                  </Button>
-                </Link>
-              </div>
-            </div>
-
-            {/* Service Card 4 */}
-            <div className="bg-white rounded-lg shadow-md overflow-hidden transition-transform duration-300 hover:transform hover:scale-105">
-              <div className="p-6">
-                <div className="bg-blue-100 rounded-full w-16 h-16 flex items-center justify-center mb-6">
-                  <Globe className="h-8 w-8 text-blue-600" />
-                </div>
-                <h3 className="text-xl font-semibold text-navy-900 mb-3">Digital Marketing</h3>
-                <p className="text-navy-700 mb-6">
-                  We develop and implement comprehensive digital marketing strategies to increase your online visibility, attract qualified leads, and drive conversions.
-                </p>
-                <ul className="text-navy-700 mb-6 space-y-2">
-                  <li className="flex items-center">
-                    <span className="text-blue-600 mr-2">•</span>
-                    Search Engine Optimization (SEO)
-                  </li>
-                  <li className="flex items-center">
-                    <span className="text-blue-600 mr-2">•</span>
-                    Pay-Per-Click Advertising (PPC)
-                  </li>
-                  <li className="flex items-center">
-                    <span className="text-blue-600 mr-2">•</span>
-                    Social Media Marketing
-                  </li>
-                  <li className="flex items-center">
-                    <span className="text-blue-600 mr-2">•</span>
-                    Content Marketing
-                  </li>
-                </ul>
-                <Link to="/digital-marketing">
-                  <Button variant="text" className="flex items-center">
-                    Learn More <ArrowRight className="ml-2 h-5 w-5" />
-                  </Button>
-                </Link>
-              </div>
-            </div>
-
-            {/* Service Card 5 */}
-            <div className="bg-white rounded-lg shadow-md overflow-hidden transition-transform duration-300 hover:transform hover:scale-105">
-              <div className="p-6">
-                <div className="bg-blue-100 rounded-full w-16 h-16 flex items-center justify-center mb-6">
-                  <BarChart className="h-8 w-8 text-blue-600" />
-                </div>
-                <h3 className="text-xl font-semibold text-navy-900 mb-3">Business Analytics</h3>
-                <p className="text-navy-700 mb-6">
-                  We help you leverage data to gain valuable insights, make informed decisions, and optimize your business performance.
-                </p>
-                <ul className="text-navy-700 mb-6 space-y-2">
-                  <li className="flex items-center">
-                    <span className="text-blue-600 mr-2">•</span>
-                    Data Analysis & Visualization
-                  </li>
-                  <li className="flex items-center">
-                    <span className="text-blue-600 mr-2">•</span>
-                    Performance Tracking & Reporting
-                  </li>
-                  <li className="flex items-center">
-                    <span className="text-blue-600 mr-2">•</span>
-                    Conversion Rate Optimization
-                  </li>
-                  <li className="flex items-center">
-                    <span className="text-blue-600 mr-2">•</span>
-                    Customer Journey Analysis
-                  </li>
-                </ul>
-                <Link to="/business-analytics">
-                  <Button variant="text" className="flex items-center">
-                    Learn More <ArrowRight className="ml-2 h-5 w-5" />
-                  </Button>
-                </Link>
-              </div>
-            </div>
-
-            {/* Service Card 6 */}
-            <div className="bg-white rounded-lg shadow-md overflow-hidden transition-transform duration-300 hover:transform hover:scale-105">
-              <div className="p-6">
-                <div className="bg-blue-100 rounded-full w-16 h-16 flex items-center justify-center mb-6">
-                  <Users className="h-8 w-8 text-blue-600" />
-                </div>
-                <h3 className="text-xl font-semibold text-navy-900 mb-3">Business Consulting</h3>
-                <p className="text-navy-700 mb-6">
-                  We provide strategic guidance and expert advice to help you navigate challenges, seize opportunities, and achieve sustainable growth.
-                </p>
-                <ul className="text-navy-700 mb-6 space-y-2">
-                  <li className="flex items-center">
-                    <span className="text-blue-600 mr-2">•</span>
-                    Digital Transformation
-                  </li>
-                  <li className="flex items-center">
-                    <span className="text-blue-600 mr-2">•</span>
-                    Business Strategy Development
-                  </li>
-                  <li className="flex items-center">
-                    <span className="text-blue-600 mr-2">•</span>
-                    Process Optimization
-                  </li>
-                  <li className="flex items-center">
-                    <span className="text-blue-600 mr-2">•</span>
-                    Technology Advisory
-                  </li>
-                </ul>
-                <Link to="/business-consulting">
-                  <Button variant="text" className="flex items-center">
-                    Learn More <ArrowRight className="ml-2 h-5 w-5" />
-                  </Button>
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Process Section */}
-      <section className="py-20 bg-gray-50">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-navy-900 mb-4">Our Process</h2>
-            <p className="text-lg text-navy-600 max-w-3xl mx-auto">
-              We follow a proven, systematic approach to deliver successful projects that meet your business objectives.
-            </p>
-          </div>
-
-          <div className="max-w-5xl mx-auto">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              {/* Process Step 1 */}
-              <div className="bg-white p-6 rounded-lg shadow-md">
-                <div className="flex items-center mb-4">
-                  <div className="bg-blue-600 text-white w-10 h-10 rounded-full flex items-center justify-center text-xl font-bold mr-4">
-                    1
-                  </div>
-                  <h3 className="text-xl font-semibold text-navy-900">Discovery & Planning</h3>
-                </div>
-                <p className="text-navy-700 ml-14">
-                  We start by understanding your business, goals, and requirements. This involves in-depth discussions, research, and defining key success metrics for your project.
-                </p>
-              </div>
-
-              {/* Process Step 2 */}
-              <div className="bg-white p-6 rounded-lg shadow-md">
-                <div className="flex items-center mb-4">
-                  <div className="bg-blue-600 text-white w-10 h-10 rounded-full flex items-center justify-center text-xl font-bold mr-4">
-                    2
-                  </div>
-                  <h3 className="text-xl font-semibold text-navy-900">Strategy & Design</h3>
-                </div>
-                <p className="text-navy-700 ml-14">
-                  We develop a comprehensive strategy and create detailed designs, wireframes, or prototypes that align with your brand and business objectives.
-                </p>
-              </div>
-
-              {/* Process Step 3 */}
-              <div className="bg-white p-6 rounded-lg shadow-md">
-                <div className="flex items-center mb-4">
-                  <div className="bg-blue-600 text-white w-10 h-10 rounded-full flex items-center justify-center text-xl font-bold mr-4">
-                    3
-                  </div>
-                  <h3 className="text-xl font-semibold text-navy-900">Development & Testing</h3>
-                </div>
-                <p className="text-navy-700 ml-14">
-                  Our team implements the solution, following best practices and industry standards. Rigorous testing ensures quality, performance, and security.
-                </p>
-              </div>
-
-              {/* Process Step 4 */}
-              <div className="bg-white p-6 rounded-lg shadow-md">
-                <div className="flex items-center mb-4">
-                  <div className="bg-blue-600 text-white w-10 h-10 rounded-full flex items-center justify-center text-xl font-bold mr-4">
-                    4
-                  </div>
-                  <h3 className="text-xl font-semibold text-navy-900">Launch & Support</h3>
-                </div>
-                <p className="text-navy-700 ml-14">
-                  After successful deployment, we provide ongoing support, maintenance, and optimization to ensure your solution continues to perform at its best.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Why Choose Us */}
-      <section className="py-20 bg-white">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 className="text-3xl md:text-4xl font-bold text-navy-900 mb-6">Why Choose Melisa</h2>
-              <p className="text-lg text-navy-700 mb-8">
-                We're more than just a service provider - we're your partner in digital success. Here's why businesses trust us with their projects:
-              </p>
-              
-              <div className="space-y-4">
-                <div className="flex items-start">
-                  <div className="bg-blue-100 p-2 rounded-full mr-4 mt-1">
-                    <Zap className="h-5 w-5 text-blue-600" />
-                  </div>
-                  <div>
-                    <h3 className="text-lg font-semibold text-navy-900 mb-1">Expertise & Experience</h3>
-                    <p className="text-navy-700">
-                      Our team comprises industry experts with deep knowledge and years of experience in their respective fields.
-                    </p>
-                  </div>
-                </div>
-                
-                <div className="flex items-start">
-                  <div className="bg-blue-100 p-2 rounded-full mr-4 mt-1">
-                    <Zap className="h-5 w-5 text-blue-600" />
-                  </div>
-                  <div>
-                    <h3 className="text-lg font-semibold text-navy-900 mb-1">Client-Centered Approach</h3>
-                    <p className="text-navy-700">
-                      We prioritize your needs and goals, ensuring that every solution we deliver is tailored to your specific requirements.
-                    </p>
-                  </div>
-                </div>
-                
-                <div className="flex items-start">
-                  <div className="bg-blue-100 p-2 rounded-full mr-4 mt-1">
-                    <Zap className="h-5 w-5 text-blue-600" />
-                  </div>
-                  <div>
-                    <h3 className="text-lg font-semibold text-navy-900 mb-1">Quality & Reliability</h3>
-                    <p className="text-navy-700">
-                      We maintain the highest standards of quality in all our work and deliver reliable solutions that perform as promised.
-                    </p>
-                  </div>
-                </div>
-                
-                <div className="flex items-start">
-                  <div className="bg-blue-100 p-2 rounded-full mr-4 mt-1">
-                    <Zap className="h-5 w-5 text-blue-600" />
-                  </div>
-                  <div>
-                    <h3 className="text-lg font-semibold text-navy-900 mb-1">Innovative Solutions</h3>
-                    <p className="text-navy-700">
-                      We stay ahead of industry trends and leverage the latest technologies to deliver innovative solutions that give you a competitive edge.
-                    </p>
-                  </div>
-                </div>
-                
-                <div className="flex items-start">
-                  <div className="bg-blue-100 p-2 rounded-full mr-4 mt-1">
-                    <Zap className="h-5 w-5 text-blue-600" />
-                  </div>
-                  <div>
-                    <h3 className="text-lg font-semibold text-navy-900 mb-1">Transparent Communication</h3>
-                    <p className="text-navy-700">
-                      We maintain open, honest communication throughout the project lifecycle, keeping you informed and involved at every stage.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-            <div>
-              <img
-                src="https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-                alt="Team working together"
-                className="rounded-lg shadow-xl w-full"
-              />
             </div>
           </div>
         </div>
@@ -461,23 +112,6 @@ const Services: React.FC = () => {
               </div>
               <h3 className="text-lg font-semibold text-navy-900 mb-2">Non-Profit</h3>
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* CTA Section */}
-      <section className="py-20 bg-navy-900 text-white">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to Start Your Project?</h2>
-            <p className="text-xl text-blue-100 mb-8">
-              Let's discuss your needs and explore how we can help you achieve your business goals.
-            </p>
-            <Link to="/contact">
-              <Button variant="primary" size="lg">
-                Get in Touch <ArrowRight className="ml-2 h-5 w-5 inline" />
-              </Button>
-            </Link>
           </div>
         </div>
       </section>

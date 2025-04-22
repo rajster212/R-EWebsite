@@ -32,9 +32,9 @@ const Contact: React.FC = () => {
                   <div>
                     <h3 className="text-lg font-semibold text-navy-900 mb-1">Our Location</h3>
                     <p className="text-navy-700">
-                      123 Business Avenue<br />
-                      New York, NY 10001<br />
-                      United States
+                      1151 Richmond St N<br />
+                      London, Ontario<br />
+                      Canada
                     </p>
                   </div>
                 </div>
@@ -47,7 +47,7 @@ const Contact: React.FC = () => {
                     <h3 className="text-lg font-semibold text-navy-900 mb-1">Phone</h3>
                     <p className="text-navy-700">
                       <a href="tel:+11234567890" className="hover:text-blue-600 transition-colors">
-                        +1 (123) 456-7890
+                      +1 (519) 931 5777 Ext. 24209
                       </a>
                     </p>
                   </div>
@@ -61,7 +61,7 @@ const Contact: React.FC = () => {
                     <h3 className="text-lg font-semibold text-navy-900 mb-1">Email</h3>
                     <p className="text-navy-700">
                       <a href="mailto:info@melisa.org" className="hover:text-blue-600 transition-colors">
-                        info@melisa.org
+                      aelzaga@uwo.ca
                       </a>
                     </p>
                   </div>
@@ -125,7 +125,7 @@ const Contact: React.FC = () => {
               <div className="aspect-w-16 aspect-h-9">
                 <iframe
                   title="Office Location"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.15830872278!2d-74.11976382080684!3d40.69766374873451!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2s!4v1623245424951!5m2!1sen!2s"
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5834.819582059161!2d-81.273821!3d43.011761!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882eee16963e9205%3A0x4a3aba64d1a0e59f!2sRobarts%20Research%20Institute!5e0!3m2!1sen!2sus!4v1745341632008!5m2!1sen!2sus"
                   width="100%"
                   height="450"
                   style={{ border: 0 }}
@@ -142,49 +142,10 @@ const Contact: React.FC = () => {
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-navy-900 mb-4">Frequently Asked Questions</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-navy-900 mb-4">Test</h2>
             <p className="text-lg text-navy-600 max-w-3xl mx-auto">
-              Find answers to common questions about our services and how we work.
+              Test - description
             </p>
-          </div>
-
-          <div className="max-w-3xl mx-auto">
-            <div className="space-y-6">
-              <div className="bg-gray-50 rounded-lg p-6">
-                <h3 className="text-xl font-semibold text-navy-900 mb-3">What types of businesses do you work with?</h3>
-                <p className="text-navy-700">
-                  We work with businesses of all sizes, from startups to large enterprises, across various industries. Our solutions are tailored to meet the specific needs of each client.
-                </p>
-              </div>
-
-              <div className="bg-gray-50 rounded-lg p-6">
-                <h3 className="text-xl font-semibold text-navy-900 mb-3">How long does a typical project take?</h3>
-                <p className="text-navy-700">
-                  Project timelines vary depending on the scope and complexity. Simple websites may take 4-6 weeks, while more complex applications can take 3-6 months or more. We'll provide a detailed timeline during the proposal phase.
-                </p>
-              </div>
-
-              <div className="bg-gray-50 rounded-lg p-6">
-                <h3 className="text-xl font-semibold text-navy-900 mb-3">What is your pricing structure?</h3>
-                <p className="text-navy-700">
-                  Our pricing is project-based and depends on the specific requirements, complexity, and timeline. We provide detailed proposals with transparent pricing before starting any project.
-                </p>
-              </div>
-
-              <div className="bg-gray-50 rounded-lg p-6">
-                <h3 className="text-xl font-semibold text-navy-900 mb-3">Do you offer ongoing support after project completion?</h3>
-                <p className="text-navy-700">
-                  Yes, we offer various support and maintenance packages to ensure your digital solution continues to perform optimally. We'll discuss these options during the project planning phase.
-                </p>
-              </div>
-
-              <div className="bg-gray-50 rounded-lg p-6">
-                <h3 className="text-xl font-semibold text-navy-900 mb-3">Can you help with an existing project or only new ones?</h3>
-                <p className="text-navy-700">
-                  We can definitely help with existing projects! Whether you need to improve, expand, or troubleshoot an existing solution, our team has the expertise to help you achieve your goals.
-                </p>
-              </div>
-            </div>
           </div>
         </div>
       </section>

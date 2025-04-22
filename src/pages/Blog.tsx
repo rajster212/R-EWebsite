@@ -3,74 +3,20 @@ import Layout from '../components/Layout';
 import Hero from '../components/Hero';
 import BlogCard from '../components/BlogCard';
 import { Search } from 'lucide-react';
+import heroImage from '../assets/HeroImage.jpg';
 
 // Sample blog posts data
 const blogPosts = [
   {
     id: 1,
-    title: '10 Strategies to Grow Your Business in 2025',
-    excerpt: 'Discover the top strategies that successful businesses are using to grow and thrive in today\'s competitive landscape.',
+    title: 'Test',
+    excerpt: 'Test',
     date: 'May 12, 2025',
     author: 'Sarah Johnson',
-    authorImage: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    authorImage: '',
     category: 'Business',
     image: 'https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
     slug: 'strategies-to-grow-business'
-  },
-  {
-    id: 2,
-    title: 'The Future of Web Development: Trends to Watch',
-    excerpt: 'Explore the emerging trends in web development that are shaping the future of digital experiences and user interfaces.',
-    date: 'Apr 29, 2025',
-    author: 'David Rodriguez',
-    authorImage: 'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    category: 'Technology',
-    image: 'https://images.pexels.com/photos/1181263/pexels-photo-1181263.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    slug: 'future-of-web-development'
-  },
-  {
-    id: 3,
-    title: 'Principles of Effective UI/UX Design',
-    excerpt: 'Learn the fundamental principles of effective UI/UX design that can help you create engaging and user-friendly digital experiences.',
-    date: 'Apr 18, 2025',
-    author: 'Emily Patel',
-    authorImage: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    category: 'Design',
-    image: 'https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    slug: 'effective-ui-ux-design'
-  },
-  {
-    id: 4,
-    title: 'How to Improve Your Digital Marketing ROI',
-    excerpt: 'Discover practical strategies to optimize your digital marketing efforts and maximize your return on investment.',
-    date: 'Apr 10, 2025',
-    author: 'Michael Chen',
-    authorImage: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    category: 'Marketing',
-    image: 'https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    slug: 'improve-digital-marketing-roi'
-  },
-  {
-    id: 5,
-    title: 'E-commerce Optimization: Boost Your Conversion Rate',
-    excerpt: 'Learn proven techniques to optimize your e-commerce website and increase your conversion rate for better business results.',
-    date: 'Apr 5, 2025',
-    author: 'Lisa Wong',
-    authorImage: 'https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    category: 'E-commerce',
-    image: 'https://images.pexels.com/photos/6214477/pexels-photo-6214477.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    slug: 'ecommerce-optimization'
-  },
-  {
-    id: 6,
-    title: 'The Impact of AI on Modern Business Operations',
-    excerpt: 'Explore how artificial intelligence is transforming business operations and creating new opportunities for growth and efficiency.',
-    date: 'Mar 28, 2025',
-    author: 'James Wilson',
-    authorImage: 'https://images.pexels.com/photos/3778603/pexels-photo-3778603.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    category: 'Technology',
-    image: 'https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    slug: 'ai-impact-business-operations'
   },
 ];
 
@@ -100,9 +46,9 @@ const Blog: React.FC = () => {
     <Layout>
       {/* Hero Section */}
       <Hero
-        title="Blog & Insights"
-        subtitle="Explore our latest articles, insights, and updates on business, technology, design, and more."
-        backgroundImage="https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        title="Recent Publication"
+        subtitle="Explore our latest articles....."
+        backgroundImage={heroImage}
       />
 
       {/* Blog Posts Section */}

@@ -62,8 +62,7 @@ const Header = () => {
                 {activeDropdown === 'services' && (
                   <div className="absolute left-0 mt-2 w-48 bg-white rounded-md shadow-lg py-1 z-10">
                     <Link to="/services" className="block px-4 py-2 text-sm text-navy-800 hover:bg-navy-100">Overview</Link>
-                    <Link to="/consulting" className="block px-4 py-2 text-sm text-navy-800 hover:bg-navy-100">Consulting</Link>
-                    <Link to="/development" className="block px-4 py-2 text-sm text-navy-800 hover:bg-navy-100">Development</Link>
+                    <Link to="/consulting" className="block px-4 py-2 text-sm text-navy-800 hover:bg-navy-100">Shipping Instructions</Link>
                   </div>
                 )}
               </li>

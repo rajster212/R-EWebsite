@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Information */}
           <div>
-            <h3 className="text-xl font-semibold mb-4">Melisa</h3>
+            <h3 className="text-xl font-semibold mb-4">R&E Diagnostics</h3>
             <p className="text-blue-200 mb-4">
               Transforming ideas into digital reality. We help businesses achieve their goals through innovative solutions.
             </p>
@@ -72,27 +72,17 @@ const Footer = () => {
             <ul className="space-y-2">
               <li>
                 <Link to="/consulting" className="text-blue-200 hover:text-white transition-colors duration-300">
-                  Business Consulting
+                The Lymphocyte Toxicity Assay
                 </Link>
               </li>
               <li>
                 <Link to="/development" className="text-blue-200 hover:text-white transition-colors duration-300">
-                  Web Development
+                The in vitro Platelet Toxicity Assay
                 </Link>
               </li>
               <li>
                 <Link to="/design" className="text-blue-200 hover:text-white transition-colors duration-300">
-                  UI/UX Design
-                </Link>
-              </li>
-              <li>
-                <Link to="/marketing" className="text-blue-200 hover:text-white transition-colors duration-300">
-                  Digital Marketing
-                </Link>
-              </li>
-              <li>
-                <Link to="/seo" className="text-blue-200 hover:text-white transition-colors duration-300">
-                  SEO Optimization
+                The Lymphocyte Transformation test (LTT)
                 </Link>
               </li>
             </ul>
@@ -104,16 +94,16 @@ const Footer = () => {
             <ul className="space-y-4">
               <li className="flex items-start">
                 <MapPin className="mr-2 h-5 w-5 flex-shrink-0 text-blue-300" />
-                <span className="text-blue-200">123 Business Avenue, New York, NY 10001</span>
+                <span className="text-blue-200">1151 Richmond St N, London, ON, Canada1</span>
               </li>
               <li className="flex items-center">
                 <Phone className="mr-2 h-5 w-5 flex-shrink-0 text-blue-300" />
-                <span className="text-blue-200">(123) 456-7890</span>
+                <span className="text-blue-200">+1 (519) 931 5777 Ext. 24209</span>
               </li>
               <li className="flex items-center">
                 <Mail className="mr-2 h-5 w-5 flex-shrink-0 text-blue-300" />
                 <a href="mailto:info@melisa.org" className="text-blue-200 hover:text-white transition-colors duration-300">
-                  info@melisa.org
+                  aelzaga@uwo.ca
                 </a>
               </li>
             </ul>
@@ -123,7 +113,7 @@ const Footer = () => {
         <div className="border-t border-navy-700 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-blue-200 text-sm">
-              &copy; {new Date().getFullYear()} Melisa. All rights reserved.
+              &copy; {new Date().getFullYear()} R&E Diagnostics. All rights reserved.
             </p>
             <div className="mt-4 md:mt-0">
               <ul className="flex space-x-6">

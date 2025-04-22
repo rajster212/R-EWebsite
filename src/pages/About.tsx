@@ -4,7 +4,7 @@ import Hero from '../components/Hero';
 import { Link } from '../components/Navigation';
 import Button from '../components/Button';
 import { ArrowRight, Check } from 'lucide-react';
-import teamImage from '../assets/team.jpg'; // Adjust path as needed
+import teamImage from '../assets/Baset.jpg'; // Adjust path as needed
 
 
 const About: React.FC = () => {
@@ -108,67 +108,67 @@ const About: React.FC = () => {
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-navy-900 mb-4">Meet Our Team</h2>
             <p className="text-lg text-navy-600 max-w-3xl mx-auto">
-              We're a diverse group of passionate individuals dedicated to creating exceptional digital experiences.
+              We're a diverse group of passionate individuals
             </p>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="bg-white rounded-lg overflow-hidden shadow-md transition-transform duration-300 hover:transform hover:scale-105">
               <img
-                src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                src=""
                 alt="Team member"
                 className="w-full h-64 object-cover object-center"
               />
               <div className="p-6">
-                <h3 className="text-xl font-semibold text-navy-900">Alex Johnson</h3>
-                <p className="text-blue-600 mb-3">Founder & CEO</p>
+                <h3 className="text-xl font-semibold text-navy-900"></h3> test1
+                <p className="text-blue-600 mb-3"></p>test2
                 <p className="text-navy-700 mb-4">
-                  Alex founded Melisa with a vision to help businesses thrive in the digital age.
+                  test3
                 </p>
               </div>
             </div>
 
             <div className="bg-white rounded-lg overflow-hidden shadow-md transition-transform duration-300 hover:transform hover:scale-105">
               <img
-                src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                src=""
                 alt="Team member"
                 className="w-full h-64 object-cover object-center"
               />
               <div className="p-6">
-                <h3 className="text-xl font-semibold text-navy-900">Sarah Chen</h3>
-                <p className="text-blue-600 mb-3">Creative Director</p>
+                <h3 className="text-xl font-semibold text-navy-900">test</h3>
+                <p className="text-blue-600 mb-3">Scientist</p>
                 <p className="text-navy-700 mb-4">
-                  Sarah leads our design team, bringing creativity and innovation to every project.
+                  Description
                 </p>
               </div>
             </div>
 
             <div className="bg-white rounded-lg overflow-hidden shadow-md transition-transform duration-300 hover:transform hover:scale-105">
               <img
-                src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                src=""
                 alt="Team member"
                 className="w-full h-64 object-cover object-center"
               />
               <div className="p-6">
-                <h3 className="text-xl font-semibold text-navy-900">David Rodriguez</h3>
-                <p className="text-blue-600 mb-3">Technical Lead</p>
+                <h3 className="text-xl font-semibold text-navy-900">t</h3>
+                <p className="text-blue-600 mb-3">t</p>
                 <p className="text-navy-700 mb-4">
-                  David brings technical expertise and leadership to our development team.
+                  t
                 </p>
               </div>
             </div>
 
             <div className="bg-white rounded-lg overflow-hidden shadow-md transition-transform duration-300 hover:transform hover:scale-105">
               <img
-                src="https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                src=""
                 alt="Team member"
                 className="w-full h-64 object-cover object-center"
               />
               <div className="p-6">
-                <h3 className="text-xl font-semibold text-navy-900">Emily Patel</h3>
-                <p className="text-blue-600 mb-3">Marketing Director</p>
+                <h3 className="text-xl font-semibold text-navy-900">t</h3>
+                <p className="text-blue-600 mb-3">t</p>
                 <p className="text-navy-700 mb-4">
-                  Emily develops strategies that help our clients grow their digital presence.
+                  t
                 </p>
               </div>
             </div>
@@ -180,72 +180,6 @@ const About: React.FC = () => {
                 View Full Team <ArrowRight className="ml-2 h-5 w-5 inline" />
               </Button>
             </Link>
-          </div>
-        </div>
-      </section>
-
-      {/* Timeline Section */}
-      <section className="py-20 bg-gray-50">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-navy-900 mb-4">Our Journey</h2>
-            <p className="text-lg text-navy-600 max-w-3xl mx-auto">
-              From our founding to today, we've been on an exciting journey of growth and innovation.
-            </p>
-          </div>
-
-          <div className="max-w-4xl mx-auto">
-            {/* Timeline Item */}
-            <div className="flex flex-col md:flex-row mb-12">
-              <div className="md:w-1/3 mb-4 md:mb-0">
-                <div className="bg-blue-600 text-white py-2 px-4 rounded inline-block">2015</div>
-                <h3 className="text-xl font-semibold text-navy-900 mt-2">Founded</h3>
-              </div>
-              <div className="md:w-2/3 md:pl-8 border-l-2 border-blue-200">
-                <p className="text-navy-700">
-                  Melisa was founded with a vision to help businesses harness the power of digital technology.
-                </p>
-              </div>
-            </div>
-
-            {/* Timeline Item */}
-            <div className="flex flex-col md:flex-row mb-12">
-              <div className="md:w-1/3 mb-4 md:mb-0">
-                <div className="bg-blue-600 text-white py-2 px-4 rounded inline-block">2017</div>
-                <h3 className="text-xl font-semibold text-navy-900 mt-2">Expansion</h3>
-              </div>
-              <div className="md:w-2/3 md:pl-8 border-l-2 border-blue-200">
-                <p className="text-navy-700">
-                  We expanded our team and services to meet growing demand, adding expertise in UI/UX design and mobile development.
-                </p>
-              </div>
-            </div>
-
-            {/* Timeline Item */}
-            <div className="flex flex-col md:flex-row mb-12">
-              <div className="md:w-1/3 mb-4 md:mb-0">
-                <div className="bg-blue-600 text-white py-2 px-4 rounded inline-block">2020</div>
-                <h3 className="text-xl font-semibold text-navy-900 mt-2">Global Reach</h3>
-              </div>
-              <div className="md:w-2/3 md:pl-8 border-l-2 border-blue-200">
-                <p className="text-navy-700">
-                  We began serving clients internationally, with projects across North America, Europe, and Asia.
-                </p>
-              </div>
-            </div>
-
-            {/* Timeline Item */}
-            <div className="flex flex-col md:flex-row">
-              <div className="md:w-1/3 mb-4 md:mb-0">
-                <div className="bg-blue-600 text-white py-2 px-4 rounded inline-block">Today</div>
-                <h3 className="text-xl font-semibold text-navy-900 mt-2">Industry Leader</h3>
-              </div>
-              <div className="md:w-2/3 md:pl-8 border-l-2 border-blue-200">
-                <p className="text-navy-700">
-                  Today, we're recognized as an industry leader in digital innovation, with a diverse portfolio of successful projects and satisfied clients.
-                </p>
-              </div>
-            </div>
           </div>
         </div>
       </section>
